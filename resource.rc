@@ -1,0 +1,20 @@
+#include "main.h"
+
+WINDOW_ICON ICON "np.ico"
+MAIN_ICON ICON "np.ico"
+
+MAINMENU MENU 
+{
+	POPUP "&File"
+	{
+	MENUITEM "&Open...", CM_FILE_OPEN
+	MENUITEM "Save &As...", CM_FILE_SAVEAS
+	MENUITEM SEPARATOR
+	MENUITEM "E&xit", CM_FILE_EXIT
+	}
+
+	MENUITEM "&Run", CM_RUN
+	MENUITEM "&Help", CM_ABOUT
+}
+
+
